@@ -27,7 +27,7 @@ function cleanup {
   yarn config set registry "$original_yarn_registry_url"
 }
 
-
+# Hello world
 function handle_error {
   echo "$(basename $0): ERROR! An error was encountered executing line $1." 1>&2;
   cleanup
